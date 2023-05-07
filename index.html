@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="js/jquery-3.6.4.js"></script>
+  <script src="js/script.js"></script>
+  <link rel="icon" href="img/logo.jpeg">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>K-Medicals || Medical survey</title>
+</head>
+
+<body>
+  <div class="container bg-primary">
+    <!-- logo section -->
+    <div class="logo">
+      <img src="/img/logo.jpeg" alt="logo">
+      <h1>Medical Survey</h1>
+    </div>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="name">First Name:</label>
+          <input id="name" class="form-control" type="text" required>
+        </div>
+        <div class="form-group">
+          <label for="name1">Last Name:</label>
+          <input id="name1" class="form-control" type="text" required>
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" value="male"> Male
+          <input type="radio" name="gender" value="female"> Female
+        </div>
+        <div class="form-group">
+          <label for="date">Date of Birth:</label>
+          <input id="date" class="form-control" type="date" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input id="email" class="form-control" type="text" required>
+        </div>
+        <div class="form-group">
+          <label for="number">Mobile Number:</label>
+          <input id="number" class="form-control" type="number" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <input id="address" class="form-control" type="text" required>
+        </div>
+        <div class="form-group">
+          <label for="color">Favourite color:</label>
+          <input id="color" class="form-control" type="color" required>
+        </div>
+        <div class="form-group">
+          <label for="blood">Blood group:</label>
+          <select name="blood" id="blood">
+            <option value="">Select blood group:</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="date1">When last did you go for a medical checkup:</label>
+          <input id="date1" class="form-control" type="date" />
+        </div>
+        <div class="form-group">
+          <label for="time">Time of last medical checkup:</label>
+          <input id="time" class="form-control" type="time" />
+        </div>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </div>
+  <div id="survey-summary">
+    <h2>Medical Survey Summary</h2>
+    <ul>
+      <li>NAME: <span class="name"></span> <span class="name1"></span> </li>
+      <li>DATE OF BIRTH: <span class="date"></span> </li>
+      <li>EMAIL ADDRESS: <span class="email"></span> </li>
+      <li>PHONE NUMBER: <span class="number"></span> </li>
+      <li>HOME ADDRESS: <span class="address"></span> </li>
+      <li>FAVOURITE COLOR: <span class="color"></span> </li>
+      <li>BLOOD GROUP: <span class="blood"></span> </li>
+      <li>LAST CHECKUP DATE: <span class="date1"></span> </li>
+      <li>LAST CHECKUP TIME: <span class="time"></span> </li>
+    </ul>
+  </div>
+
+</body>
+
+</html>
