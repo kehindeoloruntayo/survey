@@ -1,5 +1,5 @@
-# _Political meter_
-### _Political meter is a webpage that handles form submission, retrieves values from form elements, determines a user’s political belief based on these values, and redirects them to a different page based on their political belief._
+# _Survey_
+### _Survey is a medical webpage that looks to gathers information from a large pool of people to check their blood group, when last they went for a checkup, among others._
 
 ## Technology used
 * _GIT_
@@ -19,4 +19,4 @@
 * _Report any suspected security problem to the contact above._
 
 ## Notice
-Political meter contains pieces of source code that is under MIT. This notice is included here to comply with the distribution terms.
+Survey contains pieces of source code that is under MIT. This notice is included here to comply with the distribution terms.
